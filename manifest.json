@@ -14,7 +14,9 @@
     "default_title": "Click to display URL"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage",
+    "tabs"
   ],
   "background": {
     "scripts": ["background.js"],
